@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body%}
+
+		<div class="jumbotron">
+		  <h1>Cat and Dog Classifier</h1>
+		  <h3>Upload your Cat or Dog image(png,jpg,gif,jpeg) and and we will try to label it!<h3/>
+		  
+		</div>
+
+		<div container="inputContainer">
+			<form method=post enctype=multipart/form-data>
+				<p><input type=file name=file >
+
+				<div>	<input type=submit value=Upload style="height:40px;border-width: 4px;"> </div>
+			</form>
+		</div>
+
+{% endblock %}
+
+
+<h1>Cat and Dog Classifier</h1>
+	

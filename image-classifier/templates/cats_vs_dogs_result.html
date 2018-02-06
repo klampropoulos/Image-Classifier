@@ -1,0 +1,27 @@
+{%extends "layout.html" %}
+{% block body %}
+
+	<img src="/images/{{filename}}"/>
+
+	<br/>
+
+	<hr/>
+
+	I Guess you have uploaded a {{predicted_label}} picture !
+
+
+	<hr/>
+
+
+	<a href="{{url_for('/')}}">Try another picture </a>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
